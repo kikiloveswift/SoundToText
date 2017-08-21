@@ -15,6 +15,7 @@
 		FC174FB11F4AB27400DF2D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC174FAF1F4AB27400DF2D54 /* LaunchScreen.storyboard */; };
 		FC174FBC1F4AB27400DF2D54 /* SoundToTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC174FBB1F4AB27400DF2D54 /* SoundToTextTests.m */; };
 		FC174FC71F4AB27400DF2D54 /* SoundToTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC174FC61F4AB27400DF2D54 /* SoundToTextUITests.m */; };
+		FC174FD61F4AC62800DF2D54 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC174FD51F4AC62800DF2D54 /* Speech.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FC174FC21F4AB27400DF2D54 /* SoundToTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundToTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC174FC61F4AB27400DF2D54 /* SoundToTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundToTextUITests.m; sourceTree = "<group>"; };
 		FC174FC81F4AB27400DF2D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC174FD51F4AC62800DF2D54 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC174FD61F4AC62800DF2D54 /* Speech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				FC174FBA1F4AB27400DF2D54 /* SoundToTextTests */,
 				FC174FC51F4AB27400DF2D54 /* SoundToTextUITests */,
 				FC174F9F1F4AB27400DF2D54 /* Products */,
+				FC174FD41F4AC62800DF2D54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +142,14 @@
 				FC174FC81F4AB27400DF2D54 /* Info.plist */,
 			);
 			path = SoundToTextUITests;
+			sourceTree = "<group>";
+		};
+		FC174FD41F4AC62800DF2D54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC174FD51F4AC62800DF2D54 /* Speech.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -516,6 +528,7 @@
 				FC174FCD1F4AB27400DF2D54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC174FCE1F4AB27400DF2D54 /* Build configuration list for PBXNativeTarget "SoundToTextTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				FC174FD01F4AB27400DF2D54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC174FD11F4AB27400DF2D54 /* Build configuration list for PBXNativeTarget "SoundToTextUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				FC174FD31F4AB27400DF2D54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
