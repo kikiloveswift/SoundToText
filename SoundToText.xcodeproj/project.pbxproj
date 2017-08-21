@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC174FA31F4AB27400DF2D54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC174FA21F4AB27400DF2D54 /* main.m */; };
+		FC174FA61F4AB27400DF2D54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC174FA51F4AB27400DF2D54 /* AppDelegate.m */; };
+		FC174FA91F4AB27400DF2D54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC174FA81F4AB27400DF2D54 /* ViewController.m */; };
+		FC174FAC1F4AB27400DF2D54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC174FAA1F4AB27400DF2D54 /* Main.storyboard */; };
+		FC174FAE1F4AB27400DF2D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC174FAD1F4AB27400DF2D54 /* Assets.xcassets */; };
+		FC174FB11F4AB27400DF2D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC174FAF1F4AB27400DF2D54 /* LaunchScreen.storyboard */; };
+		FC174FBC1F4AB27400DF2D54 /* SoundToTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC174FBB1F4AB27400DF2D54 /* SoundToTextTests.m */; };
+		FC174FC71F4AB27400DF2D54 /* SoundToTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC174FC61F4AB27400DF2D54 /* SoundToTextUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC174FB81F4AB27400DF2D54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC174F961F4AB27400DF2D54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC174F9D1F4AB27400DF2D54;
+			remoteInfo = SoundToText;
+		};
+		FC174FC31F4AB27400DF2D54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC174F961F4AB27400DF2D54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC174F9D1F4AB27400DF2D54;
+			remoteInfo = SoundToText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC174F9E1F4AB27400DF2D54 /* SoundToText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundToText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC174FA21F4AB27400DF2D54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC174FA41F4AB27400DF2D54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC174FA51F4AB27400DF2D54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC174FA71F4AB27400DF2D54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC174FA81F4AB27400DF2D54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC174FAB1F4AB27400DF2D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC174FAD1F4AB27400DF2D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC174FB01F4AB27400DF2D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC174FB21F4AB27400DF2D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC174FB71F4AB27400DF2D54 /* SoundToTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundToTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC174FBB1F4AB27400DF2D54 /* SoundToTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundToTextTests.m; sourceTree = "<group>"; };
+		FC174FBD1F4AB27400DF2D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC174FC21F4AB27400DF2D54 /* SoundToTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundToTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC174FC61F4AB27400DF2D54 /* SoundToTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundToTextUITests.m; sourceTree = "<group>"; };
+		FC174FC81F4AB27400DF2D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC174F9B1F4AB27400DF2D54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC174FB41F4AB27400DF2D54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC174FBF1F4AB27400DF2D54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC174F951F4AB27400DF2D54 = {
+			isa = PBXGroup;
+			children = (
+				FC174FA01F4AB27400DF2D54 /* SoundToText */,
+				FC174FBA1F4AB27400DF2D54 /* SoundToTextTests */,
+				FC174FC51F4AB27400DF2D54 /* SoundToTextUITests */,
+				FC174F9F1F4AB27400DF2D54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC174F9F1F4AB27400DF2D54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC174F9E1F4AB27400DF2D54 /* SoundToText.app */,
+				FC174FB71F4AB27400DF2D54 /* SoundToTextTests.xctest */,
+				FC174FC21F4AB27400DF2D54 /* SoundToTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC174FA01F4AB27400DF2D54 /* SoundToText */ = {
+			isa = PBXGroup;
+			children = (
+				FC174FA41F4AB27400DF2D54 /* AppDelegate.h */,
+				FC174FA51F4AB27400DF2D54 /* AppDelegate.m */,
+				FC174FA71F4AB27400DF2D54 /* ViewController.h */,
+				FC174FA81F4AB27400DF2D54 /* ViewController.m */,
+				FC174FAA1F4AB27400DF2D54 /* Main.storyboard */,
+				FC174FAD1F4AB27400DF2D54 /* Assets.xcassets */,
+				FC174FAF1F4AB27400DF2D54 /* LaunchScreen.storyboard */,
+				FC174FB21F4AB27400DF2D54 /* Info.plist */,
+				FC174FA11F4AB27400DF2D54 /* Supporting Files */,
+			);
+			path = SoundToText;
+			sourceTree = "<group>";
+		};
+		FC174FA11F4AB27400DF2D54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC174FA21F4AB27400DF2D54 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC174FBA1F4AB27400DF2D54 /* SoundToTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC174FBB1F4AB27400DF2D54 /* SoundToTextTests.m */,
+				FC174FBD1F4AB27400DF2D54 /* Info.plist */,
+			);
+			path = SoundToTextTests;
+			sourceTree = "<group>";
+		};
+		FC174FC51F4AB27400DF2D54 /* SoundToTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC174FC61F4AB27400DF2D54 /* SoundToTextUITests.m */,
+				FC174FC81F4AB27400DF2D54 /* Info.plist */,
+			);
+			path = SoundToTextUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC174F9D1F4AB27400DF2D54 /* SoundToText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC174FCB1F4AB27400DF2D54 /* Build configuration list for PBXNativeTarget "SoundToText" */;
+			buildPhases = (
+				FC174F9A1F4AB27400DF2D54 /* Sources */,
+				FC174F9B1F4AB27400DF2D54 /* Frameworks */,
+				FC174F9C1F4AB27400DF2D54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundToText;
+			productName = SoundToText;
+			productReference = FC174F9E1F4AB27400DF2D54 /* SoundToText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC174FB61F4AB27400DF2D54 /* SoundToTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC174FCE1F4AB27400DF2D54 /* Build configuration list for PBXNativeTarget "SoundToTextTests" */;
+			buildPhases = (
+				FC174FB31F4AB27400DF2D54 /* Sources */,
+				FC174FB41F4AB27400DF2D54 /* Frameworks */,
+				FC174FB51F4AB27400DF2D54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC174FB91F4AB27400DF2D54 /* PBXTargetDependency */,
+			);
+			name = SoundToTextTests;
+			productName = SoundToTextTests;
+			productReference = FC174FB71F4AB27400DF2D54 /* SoundToTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC174FC11F4AB27400DF2D54 /* SoundToTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC174FD11F4AB27400DF2D54 /* Build configuration list for PBXNativeTarget "SoundToTextUITests" */;
+			buildPhases = (
+				FC174FBE1F4AB27400DF2D54 /* Sources */,
+				FC174FBF1F4AB27400DF2D54 /* Frameworks */,
+				FC174FC01F4AB27400DF2D54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC174FC41F4AB27400DF2D54 /* PBXTargetDependency */,
+			);
+			name = SoundToTextUITests;
+			productName = SoundToTextUITests;
+			productReference = FC174FC21F4AB27400DF2D54 /* SoundToTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC174F961F4AB27400DF2D54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = konglee;
+				TargetAttributes = {
+					FC174F9D1F4AB27400DF2D54 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 628LRYYF8F;
+						ProvisioningStyle = Automatic;
+					};
+					FC174FB61F4AB27400DF2D54 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 628LRYYF8F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC174F9D1F4AB27400DF2D54;
+					};
+					FC174FC11F4AB27400DF2D54 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 628LRYYF8F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC174F9D1F4AB27400DF2D54;
+					};
+				};
+			};
+			buildConfigurationList = FC174F991F4AB27400DF2D54 /* Build configuration list for PBXProject "SoundToText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC174F951F4AB27400DF2D54;
+			productRefGroup = FC174F9F1F4AB27400DF2D54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC174F9D1F4AB27400DF2D54 /* SoundToText */,
+				FC174FB61F4AB27400DF2D54 /* SoundToTextTests */,
+				FC174FC11F4AB27400DF2D54 /* SoundToTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC174F9C1F4AB27400DF2D54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC174FB11F4AB27400DF2D54 /* LaunchScreen.storyboard in Resources */,
+				FC174FAE1F4AB27400DF2D54 /* Assets.xcassets in Resources */,
+				FC174FAC1F4AB27400DF2D54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC174FB51F4AB27400DF2D54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC174FC01F4AB27400DF2D54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC174F9A1F4AB27400DF2D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC174FA91F4AB27400DF2D54 /* ViewController.m in Sources */,
+				FC174FA61F4AB27400DF2D54 /* AppDelegate.m in Sources */,
+				FC174FA31F4AB27400DF2D54 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC174FB31F4AB27400DF2D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC174FBC1F4AB27400DF2D54 /* SoundToTextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC174FBE1F4AB27400DF2D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC174FC71F4AB27400DF2D54 /* SoundToTextUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC174FB91F4AB27400DF2D54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC174F9D1F4AB27400DF2D54 /* SoundToText */;
+			targetProxy = FC174FB81F4AB27400DF2D54 /* PBXContainerItemProxy */;
+		};
+		FC174FC41F4AB27400DF2D54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC174F9D1F4AB27400DF2D54 /* SoundToText */;
+			targetProxy = FC174FC31F4AB27400DF2D54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC174FAA1F4AB27400DF2D54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC174FAB1F4AB27400DF2D54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC174FAF1F4AB27400DF2D54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC174FB01F4AB27400DF2D54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC174FC91F4AB27400DF2D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC174FCA1F4AB27400DF2D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC174FCC1F4AB27400DF2D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = SoundToText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konglee.SoundToText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC174FCD1F4AB27400DF2D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = SoundToText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konglee.SoundToText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC174FCF1F4AB27400DF2D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = SoundToTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konglee.SoundToTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundToText.app/SoundToText";
+			};
+			name = Debug;
+		};
+		FC174FD01F4AB27400DF2D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = SoundToTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konglee.SoundToTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundToText.app/SoundToText";
+			};
+			name = Release;
+		};
+		FC174FD21F4AB27400DF2D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = SoundToTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konglee.SoundToTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoundToText;
+			};
+			name = Debug;
+		};
+		FC174FD31F4AB27400DF2D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 628LRYYF8F;
+				INFOPLIST_FILE = SoundToTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konglee.SoundToTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoundToText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC174F991F4AB27400DF2D54 /* Build configuration list for PBXProject "SoundToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC174FC91F4AB27400DF2D54 /* Debug */,
+				FC174FCA1F4AB27400DF2D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC174FCB1F4AB27400DF2D54 /* Build configuration list for PBXNativeTarget "SoundToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC174FCC1F4AB27400DF2D54 /* Debug */,
+				FC174FCD1F4AB27400DF2D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC174FCE1F4AB27400DF2D54 /* Build configuration list for PBXNativeTarget "SoundToTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC174FCF1F4AB27400DF2D54 /* Debug */,
+				FC174FD01F4AB27400DF2D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC174FD11F4AB27400DF2D54 /* Build configuration list for PBXNativeTarget "SoundToTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC174FD21F4AB27400DF2D54 /* Debug */,
+				FC174FD31F4AB27400DF2D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC174F961F4AB27400DF2D54 /* Project object */;
+}
